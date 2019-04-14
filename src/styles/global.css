@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+
+html {
+  background-color: lavenderblush;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 6px;
+  font-weight: 300;
+
+}
+
+a:link,a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+}
